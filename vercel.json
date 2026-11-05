@@ -1,15 +1,15 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [{ "type": "host", "value": "clevelandjunkremovalpros.com" }],
-      "destination": "https://www.clevejunkpros.com/:path*",
+      "destination": "https://www.clevejunkpros.com/$1",
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [{ "type": "host", "value": "www.clevelandjunkremovalpros.com" }],
-      "destination": "https://www.clevejunkpros.com/:path*",
+      "destination": "https://www.clevejunkpros.com/$1",
       "permanent": true
     }
   ]
